@@ -18,7 +18,7 @@ export default function History() {
 
    React.useEffect( () => {
     async function getProduct() {
-        fetch( `https://crazy-teal-umbrella.cyclic.app/history/Details/${ id }`)
+        fetch( `https://nutty-puce-uniform.cyclic.app/history/Details/${ id }`)
             .then(res => res.json())
             .then(data =>  setSingleProduct(data))
             .catch(err => console.log(err))
