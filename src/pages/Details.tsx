@@ -18,7 +18,7 @@ export default function Details() {
 
    React.useEffect( () => {
     async function getProduct() {
-        fetch( `https://crazy-teal-umbrella.cyclic.app/beach/Details/${ id }`)
+        fetch( `https://nutty-puce-uniform.cyclic.app/beach/Details/${ id }`)
             .then(res => res.json())
             .then(data =>  setSingleProduct(data))
             .catch(err => console.log(err))
