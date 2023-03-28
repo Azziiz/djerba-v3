@@ -41,7 +41,7 @@ console.log(singleProduct)
             <div className="details">
                 <div className="text-section">
                     <h1>{singleProduct?.title}</h1>
-                    <h3>{singleProduct?.disc}</h3>
+                    <h4>{singleProduct?.disc}</h4>
                 </div>
                 <div className="images-section">
                     <div className="main-image">
