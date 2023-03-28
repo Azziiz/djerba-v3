@@ -23,17 +23,17 @@ export default function Main() {
     
         React.useEffect( () => {
             async function getProducts() {
-                fetch('https://crazy-teal-umbrella.cyclic.app/beach')
+                fetch('https://nutty-puce-uniform.cyclic.app/beach')
                     .then(res => res.json())
                     .then(data =>  setBeachProducts(data))
                     .catch(err => console.log(err))
 
-                fetch('https://crazy-teal-umbrella.cyclic.app/culture')
+                fetch('https://nutty-puce-uniform.cyclic.app/culture')
                     .then(res => res.json())
                     .then(data =>  setCultureProducts(data))
                     .catch(err => console.log(err))
                 
-                fetch('https://crazy-teal-umbrella.cyclic.app/history')
+                fetch('https://nutty-puce-uniform.cyclic.app/history')
                     .then(res => res.json())
                     .then(data =>  setHistoryProducts(data))
                     .catch(err => console.log(err))
